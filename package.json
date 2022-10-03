@@ -1,0 +1,24 @@
+{
+  "name": "ejercicioregistro",
+  "version": "1.0.0",
+  "description": "Pratico obligatorio",
+  "main": "registro.js",
+  "scripts": {
+    "convertir": "tsc registro.ts",
+    "convertido": "node registro.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SilvioAlvarez/Practico-Registro"
+  },
+  "author": "Silvio Alvarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SilvioAlvarez/Registro/issues"
+  },
+  "homepage": "https://github.com/SilvioAlvarez/Registro#readme",
+  "dependencies": {
+    "@types/node": "^18.7.23",
+    "readline-sync": "^1.4.10"
+  }
+}
