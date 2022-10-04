@@ -1,24 +1,23 @@
 {
   "name": "ejercicioregistro",
   "version": "1.0.0",
-  "description": "Pratico obligatorio",
+  "description": "Practico obligatorio 2do cuatrimestre",
   "main": "registro.js",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {},
   "scripts": {
-    "convertir": "tsc registro.ts",
-    "convertido": "node registro.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SilvioAlvarez/Practico-Registro"
+    "url": "git+https://github.com/SilvioAlvarez/Registro.git"
   },
   "author": "Silvio Alvarez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SilvioAlvarez/Registro/issues"
   },
-  "homepage": "https://github.com/SilvioAlvarez/Registro#readme",
-  "dependencies": {
-    "@types/node": "^18.7.23",
-    "readline-sync": "^1.4.10"
-  }
+  "homepage": "https://github.com/SilvioAlvarez/Registro#readme"
 }

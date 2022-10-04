@@ -9,7 +9,6 @@ class Auto {
     private patente : string;
     
 
-
 public constructor(id: string, marca: string, modelo: string, año: number, patente: string) {
     this.id = id;
     this.marca = marca;
@@ -17,7 +16,6 @@ public constructor(id: string, marca: string, modelo: string, año: number, pate
     this.año = año;
     this.patente = patente;
     
-
 }
 
 }
@@ -36,21 +34,16 @@ public constructor(nombre: string, direccion: string, horario: string, listaAuto
     this.horario = horario ;
     this.listaAutos= listaAutos; 
 }
-
-
-public mostrarRegistro(): void {
-  console.log(this.nombre);
-  console.log(this.direccion);
-  console.log(this.listaAutos);
-}
-
-
 public getListaAutos() : Auto[] {
     return this.listaAutos;
 }
 
+public mostrarListaAutos(): void {
+  console.log(this.listaAutos);
+  
 }
 
+}
 
 class GestorDeArchivos {
 
@@ -63,7 +56,6 @@ class GestorDeArchivos {
     
     }
    
-
     public mostrarArreglo(): void {
         console.log(this.arregloString);
     }
@@ -116,7 +108,7 @@ console.log (datosRegistro)
         arregloAuto[posicion] = autoModificado;
     }
 
-    function borrarAuto(arregloAuto: Array<Auto>, posicion: number){
+    function darDeBajaAuto(arregloAuto: Array<Auto>, posicion: number){
         let posicionABorrar = Number(ReadlineSync.questionInt("Ingrese la posicion a borrar: "));
         posicion = posicionABorrar;
         
@@ -126,5 +118,5 @@ console.log (datosRegistro)
 modificarAuto(listaAutos,1);
 console.log(listaAutos);
 
-borrarAuto(listaAutos,2);
+darDeBajaAuto(listaAutos,2);
 console.log(listaAutos);

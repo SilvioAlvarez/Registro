@@ -19,13 +19,11 @@ var Registro = /** @class */ (function () {
         this.horario = horario;
         this.listaAutos = listaAutos;
     }
-    Registro.prototype.mostrarRegistro = function () {
-        console.log(this.nombre);
-        console.log(this.direccion);
-        console.log(this.listaAutos);
-    };
     Registro.prototype.getListaAutos = function () {
         return this.listaAutos;
+    };
+    Registro.prototype.mostrarListaAutos = function () {
+        console.log(this.listaAutos);
     };
     return Registro;
 }());
