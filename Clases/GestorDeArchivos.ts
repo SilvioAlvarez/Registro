@@ -3,6 +3,9 @@ import * as fs from 'fs';
 export class GestorDeArchivos {
 
     private arregloString: string[];
+    private arregloString1: string[];
+    private arregloString2: string[];
+
 
     constructor(txtFileLocation: string) {
 
@@ -18,5 +21,9 @@ export class GestorDeArchivos {
     public getArregloString(): string[] {
         return this.arregloString;
     }
-
+    public getArregloString1(): string[] {
+        return this.arregloString;
+    }public getArregloString2(): string[] {
+        return this.arregloString;
+    }
 }

@@ -1,4 +1,5 @@
 import {Auto} from "../Clases/Auto";
+
 export default function cargarAuto(auto: string, arrayAuto: Array<Auto>) : void{
 
     let propiedadAuto : string[] = auto.split(','); 
