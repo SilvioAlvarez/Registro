@@ -1,8 +1,10 @@
 
-import {Auto,Registro,GestorDeArchivos} from "./clases.js";
-import cargarAuto from './funciones.js';
-import modificarAuto from './funciones.js';
-import darDeBajaAuto from './funciones.js';
+import {Auto} from "./Clases/Auto";
+import {Registro} from "./Clases/Registro";
+import {GestorDeArchivos} from "./Clases/GestorDeArchivos";
+import cargarAuto from './Funciones/cargarAuto';
+import modificarAuto from './Funciones/cargarAuto';
+import darDeBajaAuto from './Funciones/cargarAuto';
 
 
 let datos: GestorDeArchivos = new GestorDeArchivos("autos.txt");
