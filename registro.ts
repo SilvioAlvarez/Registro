@@ -1,4 +1,4 @@
-import { cargarContraseña } from "./Funciones/cargarContraseña";
+import { cargarAcceso } from "./Funciones/cargarAcceso";
 import { Auto } from "./Clases/Auto";
 import { Motos } from "./Clases/Motos";
 import { Camioneta } from "./Clases/Camioneta";
@@ -42,7 +42,7 @@ for (let i: number = 0; i < datosmot.getArregloString1().length; i++) {
 
 }
 
-cargarContraseña("Silvio", "Karen", 3);
+cargarAcceso("Silvio", "Karen", 3);
 console.log(datosRegistro);
 modificarAuto(listaAutos, 1);
 console.log(listaAutos)

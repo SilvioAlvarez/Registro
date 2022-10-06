@@ -2,7 +2,7 @@ import * as ReadlineSync from 'readline-sync';
 import { Contraseña } from "../Clases/Acceso";
 
 
-export function cargarContraseña(nombre: string, contraseña: string, intentos: number): void {
+export function cargarAcceso(nombre: string, contraseña: string, intentos: number): void {
 
     let ponerNombre: string = "Silvio";
     let ponerContraseña: string = "Karen";
