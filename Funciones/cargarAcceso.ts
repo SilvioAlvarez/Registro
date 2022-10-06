@@ -1,5 +1,5 @@
 import * as ReadlineSync from 'readline-sync';
-import { Contraseña } from "../Clases/Acceso";
+
 
 
 export function cargarAcceso(nombre: string, contraseña: string, intentos: number): void {
