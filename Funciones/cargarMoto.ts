@@ -1,6 +1,5 @@
 import {Motos} from "../Clases/Motos";
-import {GestorDeArchivos} from "../Clases/GestorDeArchivos";
-import {Registro} from "../Clases/Registro";
+
 
 export default function cargarMoto(auto: string, arrayMoto: Array<Motos>) : void{
 

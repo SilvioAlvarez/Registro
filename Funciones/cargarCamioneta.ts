@@ -1,6 +1,5 @@
 import {Camioneta} from "../Clases/Camioneta";
-import {GestorDeArchivos} from "../Clases/GestorDeArchivos";
-import {Registro} from "../Clases/Registro";
+
 
 
 
