@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-var cargarContrase_a_1 = require("./Funciones/cargarContrase\u00F1a");
+var cargarAcceso_1 = require("./Funciones/cargarAcceso");
 var Registro_1 = require("./Clases/Registro");
 var GestorDeArchivos_1 = require("./Clases/GestorDeArchivos");
 var cargarAuto_1 = require("./Funciones/cargarAuto");
@@ -24,7 +24,7 @@ for (var i = 0; i < datosmot.getArregloString1().length; i++) {
 for (var i = 0; i < datoscamione.getArregloString2().length; i++) {
     (0, cargarCamioneta_1["default"])(datoscamione.getArregloString2()[i], listaCamionetas);
 }
-(0, cargarContrase_a_1.cargarContraseña)("Silvio", "Karen", 3);
+(0, cargarAcceso_1.cargarAcceso)("Silvio", "Karen", 3);
 console.log(datosRegistro);
 (0, modificarAuto_1.modificarAuto)(listaAutos, 1);
 console.log(listaAutos);
