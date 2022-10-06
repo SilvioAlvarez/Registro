@@ -7,14 +7,14 @@ export class GestorDeArchivos {
     private arregloString1: string[];
     private arregloString2: string[];
 
-    
+
     constructor(txtFileLocation: string) {
 
-        let archivoTxt: string = fs.readFileSync(txtFileLocation, 'utf-8'); 
-        this.arregloString = archivoTxt.split(';'); 
-    
+        let archivoTxt: string = fs.readFileSync(txtFileLocation, 'utf-8');
+        this.arregloString = archivoTxt.split(';');
+
     }
-   
+
     public mostrarArreglo(): void {
         console.log(this.arregloString);
     }
@@ -24,7 +24,7 @@ export class GestorDeArchivos {
     }
     public getArregloString1(): string[] {
         return this.arregloString;
-    }public getArregloString2(): string[] {
+    } public getArregloString2(): string[] {
         return this.arregloString;
     }
 }
