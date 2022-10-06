@@ -10,9 +10,8 @@ export class Registro {
     private listaAutos : Array<Auto>;
     private listaMotos : Array<Motos>;
     private listaCamionetas : Array<Camioneta>;
+ 
     
-
-
 public constructor(nombre: string, direccion: string, horario: string, listaAutos: Array<Auto>,listaMotos : Array<Motos>,listaCamionetas : Array<Camioneta>) {
     this.nombre = nombre ;
     this.direccion= direccion;

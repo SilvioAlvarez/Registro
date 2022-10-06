@@ -14,5 +14,4 @@ public constructor(id: string, marca: string, modelo: string, año: number, pate
     this.patente = patente;
     
 }
-
 }

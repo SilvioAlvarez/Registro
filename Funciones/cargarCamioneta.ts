@@ -1,8 +1,6 @@
 import {Camioneta} from "../Clases/Camioneta";
 
 
-
-
 export default function cargarCamioneta(auto: string, arrayCamioneta: Array<Camioneta>) : void{
 
     let propiedadAuto : string[] = auto.split(','); 
